@@ -1,0 +1,14 @@
+{
+    "binance" : {
+        "api_url" : "https://api.binance.com",
+        "api_key" : "rXbe7eNDZTOBfwnVKyMboddVWj23IeHcKxVcnSGBV4IxECF2Ka41sT5weuq7F5r7",
+        "api_secret" : "kblgpv74WU4pfq4kOtVZqS6s65UTx2nzYAXjybV8PXraHK7FoC2K4xDC423STOxz",
+        "config" : {
+            "base_currency" : "RUNE",
+            "quote_currency" : "USDT",
+            "granularity" : "1m",
+            "live" : 1,
+            "verbose": 1
+        }
+    }
+}
