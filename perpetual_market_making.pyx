@@ -555,7 +555,7 @@ cdef class PerpetualMarketMakingStrategy(StrategyBase):
 
     
     def get_orders(self):
-        rsi= self.get_rsi()
+        rsi= self.get_signal()
         buy_ratio=  1
         sell_ratio= 1
         if(self.my_signal=='buy'):
